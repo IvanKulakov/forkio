@@ -218,7 +218,7 @@ table {
   background: url("../img/wall.png") center; }
 
 .top-menu-wrapper {
-  padding: 32px 15px 30px 15px; }
+  padding: 30px 0; }
 
 .top-menu {
   display: flex;
@@ -228,7 +228,8 @@ table {
   background: #27262A; }
 
 .top-menu__logo__img {
-  cursor: pointer; }
+  cursor: pointer;
+  margin-left: 10px; }
 
 .top-menu__logo__img:hover {
   content: url("../img/icons/logo-hover 1.png"); }
@@ -271,7 +272,8 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end; }
+  align-items: flex-end;
+  margin-right: 10px; }
 
 .top-menu-btn-block__line {
   width: 26px;
@@ -303,7 +305,8 @@ table {
   display: flex;
   flex-direction: column;
   top: 106px;
-  width: 292px; }
+  width: 292px;
+  margin-left: calc((100% - 292px)/2); }
 
 .top-menu__main-menu--invisible {
   display: none; }
@@ -376,7 +379,8 @@ table {
   color: #8D81AC; }
 
 .main-wrapper {
-  text-align: center; }
+  text-align: center;
+  padding: 0 10px; }
 
 .maim-content__trial {
   margin-top: 36px;
@@ -510,8 +514,6 @@ table {
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: row; }
-  .maim-content__trial {
-    margin-top: 50px; }
   .top-menu__main-menu__item--1200 {
     font-weight: bold;
     font-size: 16px;
@@ -533,6 +535,8 @@ table {
     font-size: 21px; }
   .main-content__revolutionary {
     font-size: 42px; }
+  .maim-content__trial {
+    margin-top: 50px; }
   .main-content__text {
     margin-left: 40px;
     margin-right: 40px;
@@ -582,6 +586,9 @@ table {
     padding-right: 90px; }
   .top-menu {
     background: none; }
+  .main-wrapper {
+    padding-left: 0;
+    padding-right: 0; }
   .main-content {
     background: #F4F4F4;
     display: grid;
